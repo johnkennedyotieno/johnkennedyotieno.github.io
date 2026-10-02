@@ -370,6 +370,14 @@
   .cs-outcome-num { font-family: var(--font-display); font-size: 2rem; font-weight: 700; color: var(--amber); line-height: 1; }
   .cs-outcome-label { font-size: 12px; color: rgba(244,240,230,0.5); margin-top: 0.6rem; line-height: 1.5; }
 
+
+  .ed-grid { display: grid; grid-template-columns: minmax(0,320px) 1fr; gap: 3rem; align-items: start; }
+  .ed-cover { display: block; border: 1px solid rgba(200,102,26,0.2); }
+  .ed-cover img { display: block; width: 100%; height: auto; }
+  .ed-actions { display: flex; gap: 1.25rem; flex-wrap: wrap; margin-top: 2rem; }
+  .ed-btn { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--amber); text-decoration: none; padding: 0.8rem 1.4rem; border: 1px solid var(--amber); transition: background 0.2s, color 0.2s; }
+  .ed-btn:hover { background: var(--amber); color: var(--ink); }
+  @media (max-width: 768px) { .ed-grid { grid-template-columns: 1fr; gap: 2rem; } .ed-cover { max-width: 320px; } }
   .cs-case-study + .cs-case-study { margin-top: 4rem; padding-top: 3.5rem; border-top: 1px solid var(--rule); }
 </style>
 </head>
@@ -383,6 +391,7 @@
       <li><a href="#broadcast">Broadcast</a></li>
       <li><a href="#video">Video & Film</a></li>
       <li><a href="#brand-strategy">Brand Strategy</a></li>
+      <li><a href="#editorial">Editorial</a></li>
       <li><a href="#leadership">Leadership</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
@@ -882,6 +891,38 @@
         <div class="cs-outcome-label">An owned list of potential customers, clients, and donors built for Chef Abala, plus a reusable content library for future pitches</div>
       </div>
     </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="editorial">
+  <div class="container">
+    <div class="section-header">
+      <div>
+        <p class="section-label">Creative Direction &amp; Editorial</p>
+        <h2 class="section-title">USIU-Africa <em>Yearbook 2024.</em></h2>
+      </div>
+      <div class="section-rule"></div>
+    </div>
+    <div class="ed-grid">
+      <a class="ed-cover" href="USIU-Africa-Yearbook-2024-web.pdf" target="_blank" rel="noopener">
+        <img src="yearbook-cover.jpg" alt="Cover of the USIU-Africa Yearbook 2024" loading="lazy">
+      </a>
+      <div>
+        <div class="cs-meta" style="padding-bottom:2rem;margin-bottom:2rem;">
+          <div class="cs-meta-block"><p class="cs-meta-label">Role</p><p class="cs-meta-value">Editor in Chief</p></div>
+          <div class="cs-meta-block"><p class="cs-meta-label">Client</p><p class="cs-meta-value">USIU-Africa</p></div>
+          <div class="cs-meta-block"><p class="cs-meta-label">Period</p><p class="cs-meta-value">Jul 2024 – Oct 2024</p></div>
+        </div>
+        <div class="cs-outcomes" style="margin-top:0;padding-top:0;border-top:none;">
+          <div class="cs-outcome"><div class="cs-outcome-num">1,200</div><div class="cs-outcome-label">Print copies</div></div>
+          <div class="cs-outcome"><div class="cs-outcome-num">KES 200K</div><div class="cs-outcome-label">Ad revenue</div></div>
+          <div class="cs-outcome"><div class="cs-outcome-num">On time</div><div class="cs-outcome-label">Delivered to print, with SOPs adopted by the 2025 team</div></div>
+        </div>
+        <div class="ed-actions">
+          <a class="ed-btn" href="USIU-Africa-Yearbook-2024-web.pdf" target="_blank" rel="noopener">Read the yearbook (PDF) →</a>
+        </div>
+      </div>
     </div>
   </div>
 </section>
